@@ -6,7 +6,7 @@ int main(){
     int a,b;
     while(scanf("%s %d %d",op,&a,&b)==3){
         char libname[50];   
-        strcpy(libname,"lib");
+        strcpy(libname,"./lib");
         strcat(libname,op);
         strcat(libname,".so");
 
